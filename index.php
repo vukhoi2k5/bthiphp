@@ -29,16 +29,17 @@ if($sql->num_rows>0){
 <body>
 <div class="container">
     <div class="row">
-        <h1>
-            Phone contacts
-        </h1>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a href="add_contact.php">
-            <button class="btn btn-primary me-md-2" type="button">Add new Contacts</button>       
-        </a>
+        <div class=" d-flex justify-content-between align-items-center">
+            <h1>
+                Phone contacts
+            </h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="add_contact.php">
+                    <button class="btn btn-primary me-md-2" type="button">Add new Contacts</button>       
+                </a>
 
-        </div>
-        
+            </div>
+        </div> 
         <table class="table table-bordered border-primary" style="margin-top: 10px;">
             <thead>
                 <tr>
